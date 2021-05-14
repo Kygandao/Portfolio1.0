@@ -193,7 +193,7 @@
     padding-left: 7px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
     .about-content {
         display: flex;
         flex-wrap: wrap;
