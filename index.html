@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kygan Dao's Portfolio v1.0</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Kygan's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="body">
     <header class="main-header">
-        <div class="container">
-            <nav class="topnav">
-                <img class="logo" src="./images/header-icon.png" alt="Logo">
-                <h1>Portfolio v1.0</h1>
-                <img class="logo" src="./images/header-icon.png" alt="Logo">
-                <a class="active" href="#home">Home</a>
-                <a href="#Work">Work</a>
-                <a href="#Contact">Contact</a>
+        <div class="header-div">
+            <h1 class="main-header-text">Kygan's Portfolio</h1>
+            <img class="header-image" src="./images/Pizza.png" alt="Pizza Slice Logo">
+        </div>
+        <div class="nav-div">
+            <nav class="nav">
+                <a class="active" href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
-</body>
 
+    <main class="main-div">
+        <div id='about'>
+            <div class="about-header">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <img class="about-image" src="./images/no-photo.svg" alt="No Photo Available">
+                <p>
+                This section will be about me and my interests, hobbies, and goals.
+                This text is currently a filler in order to design the later versions of this portfolio so much of what you see will be changed.<br/><br/>
+                Thanks for stopping by!
+                </p>
+            </div>
+        </div>    
+
+        <div id="work">
+            <div class="work-header">
+                <h2>My Work</h2>
+            </div>
+            <div class="work-content">
+                <p>
+                    This section will be about the work that I have completed, as well as the work I am currently working on, and the work I would like to do.
+                    There will be links to specific work examples that best display my knowledge and real skills.<br/><br/>
+                    
+                </p>
+                <img class="work-image" src="./images/work-image.jpg" alt="Coming Soon">
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact-header">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <p>
+                    If you are interested in the work that I have done, have any questions about my work, or would like to work together on a different project,
+                    feel free to reach out to me on these various sites.<br/><br/>
+                </p>
+                
+                <div class="icon-div">
+                    <a class="icon" href="https://github.com/Kygandao" target="_blank"> <img class="github-icon" src="./images/github.png" alt="Github"></a>
+                    <a class="icon" href="https://www.kygan.slack.com" target="_blank"> <img class="slack-icon" src="./images/slack.png" alt="Slack"></a>
+                    <a class="icon" href="https://www.linkedin.com/in/kygan-dao-7a1893209/" target="_blank"> <img class="linkedin-icon" src="./images/linkedin.png" alt="Linkedin"></a>
+                    <a class="icon" href="mailto: kygandao23@gmail.com" target="_blank"> <img class="email-icon" src="./images/gmail.png" alt="Email kygandao23@gmail.com"></a>
+                </div> 
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-text">
+            <h5>Working Portfolio Version 1.0</h5>
+        </div>
+    </footer>
+</body>
 </html>

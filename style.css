@@ -1,36 +1,179 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
-.logo {
-    height: 50px;
-    width: 50px;
+.body {
+    background-image: url(./images/Woods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.topnav {
-    background-color: rgb(34, 34, 34);
-    overflow: hidden;
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(121, 121, 121, 0.7);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    min-width: 550px;
+}
+
+.main-header-text {
+    color: white;
+    position: relative;
+    padding-left: 20px
+}
+
+.header-image {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(59, 59, 59, .70);
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-width: 550px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+}
+
+.nav a:hover {
+    background-color: black;
+}
+
+.main-div {
+    background-color: rgba(121, 121, 121, 0.7);
+    padding-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-width: 550px;
+}
+
+.about-header {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    color: white;
+}
+
+.about-content p {
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding-left: 20px;
+    
+}
+
+.work-header {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.work-content {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-content p {
+    text-align: end;
+    padding-top: 25px;
+}
+
+.work-image {
+    height: 209px;
+    width: 314px;
+    border-radius: 35%;
+    padding-left: 20px;
+}
+
+.contact-header {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.contact-content p {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.github-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.slack-icon {
+    height: 100px;
+    width: 100px
+}
+
+.linkedin-icon {
+    height: 100px;
+    width: 100px
+}
+
+.email-icon {
+    height: 100px;
+    width: 100px
+}
+
+.icon-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-footer {
     display: flex;
     align-items: center;
+    background-color: rgb(59, 59, 59, .50);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    min-width: 550px;
 }
 
-.topnav h1 {
-    color: rgb(52, 61, 35);
-    text-align: right;
-}
-
-.topnav a {
-    float: left;
-    text-align: left;
-    font-size: 20px;
-    color: rgb(163, 162, 162);
-    padding: 20px;
-}
-.topnav a:hover {
-    background-color: rgb(54, 54, 54);
-}
-
-.topnav a:active {
-    background-color: rgb(52, 61, 35);
+.footer-text {
     color: white;
+    padding-left: 7px;
 }
