@@ -107,7 +107,6 @@
 .work-image {
     height: 209px;
     width: 314px;
-    border-radius: 35%;
     padding-left: 50px;
 }
 
@@ -193,7 +192,7 @@
     padding-left: 7px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 668px) {
     .about-content {
         display: flex;
         flex-wrap: wrap;
